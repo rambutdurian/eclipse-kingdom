@@ -1,0 +1,22 @@
+/* src/components/Header.css */
+
+.App-header {
+    background-color: #4CAF50; /* Green for a theme park vibe */
+    color: white;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.App-header h1 {
+    font-size: 3rem;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.App-header p {
+    font-size: 1.2rem;
+    margin: 10px 0 0 0;
+    font-style: italic;
+    font-family: 'Arial', sans-serif;
+}
