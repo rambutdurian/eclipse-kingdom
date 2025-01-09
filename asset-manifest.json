@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/eclipse-kingdom/static/css/main.34aa08cb.css",
+    "main.js": "/eclipse-kingdom/static/js/main.f3e0ccd8.js",
+    "static/js/488.e75445ad.chunk.js": "/eclipse-kingdom/static/js/488.e75445ad.chunk.js",
+    "index.html": "/eclipse-kingdom/index.html",
+    "main.34aa08cb.css.map": "/eclipse-kingdom/static/css/main.34aa08cb.css.map",
+    "main.f3e0ccd8.js.map": "/eclipse-kingdom/static/js/main.f3e0ccd8.js.map",
+    "488.e75445ad.chunk.js.map": "/eclipse-kingdom/static/js/488.e75445ad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34aa08cb.css",
+    "static/js/main.f3e0ccd8.js"
+  ]
+}
