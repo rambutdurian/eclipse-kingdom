@@ -1,17 +1,14 @@
-name: Deploy to GitHub Pages
+name: Deploy Frontend to GitHub Pages
 
 on:
   push:
     branches:
       - main  # Specify which branch you want to deploy from
 
-permissions:
-  contents: write
-  id-token: write  # Make sure GITHUB_TOKEN has the right permissions
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -21,13 +18,16 @@ jobs:
         with:
           node-version: '14'
 
-      - name: Install dependencies
+      - name: Install dependencies (Frontend)
         run: npm install
+        working-directory: frontend  # Run npm install in the frontend folder
 
       - name: Build project
         run: npm run build
+        working-directory: frontend  # Run npm run build in the frontend folder
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+        working-directory: frontend  # Make sure deploy uses the frontend folder
