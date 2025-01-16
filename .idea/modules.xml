@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
+      <module fileurl="file://$PROJECT_DIR$/eclipse kingdome.iml" filepath="$PROJECT_DIR$/eclipse kingdome.iml" />
+=======
       <module fileurl="file://$PROJECT_DIR$/.idea/eclipse-kingdom.iml" filepath="$PROJECT_DIR$/.idea/eclipse-kingdom.iml" />
+>>>>>>> ed60205b05aa60b40e6baf3aaf3a90d647bb5db0
     </modules>
   </component>
 </project>

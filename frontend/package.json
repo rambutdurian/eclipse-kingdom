@@ -2,9 +2,13 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
+<<<<<<< HEAD
+  "dependencies": {
+=======
   "homepage": "https://rambutdurian.github.io/eclipse-kingdom",
   "dependencies": {
     "axios": "^1.7.9",
+>>>>>>> ed60205b05aa60b40e6baf3aaf3a90d647bb5db0
     "cra-template": "1.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -15,9 +19,13 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+<<<<<<< HEAD
+    "eject": "react-scripts eject"
+=======
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+>>>>>>> ed60205b05aa60b40e6baf3aaf3a90d647bb5db0
   },
   "eslintConfig": {
     "extends": [
@@ -36,8 +44,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
+=======
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
+>>>>>>> ed60205b05aa60b40e6baf3aaf3a90d647bb5db0
   }
 }
